@@ -600,6 +600,12 @@ footer .copyright{
     padding-top: 30px;
 }
 
+#prodetails .single-pro-details a{
+    text-decoration: none;
+    color: black;
+}
+
+
 #prodetails .single-pro-details h4{
     padding: 40px 0 20px 0;
 }
