@@ -9,6 +9,10 @@
    
     <link rel="stylesheet" href="https://kit.fontawesome.com/72e30dec22.css" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+    
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 </head>
 
 <body>
@@ -202,6 +206,86 @@
         </div>
     </section>
 
+    <section class="container testimonials__container mySwiper" class="section-p1">
+        <!-- <div class="testimonial"> -->
+        <h2>Testimonials</h2>
+        <!-- </div> -->
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="img/images/avatar1.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Diana Ayi</h5>
+                    <small>Student</small>
+                    <div class="testimonial__body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa vero animi, assumenda facere, ad temporibus earum natus saepe, consequuntur fugit quae similique eius voluptatibus nobis reprehenderit aperiam voluptatem ab? Doloremque?</p>
+                    </div>
+                </div>
+            </article>
+    
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="img/images/avatar2.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Diana Ayi</h5>
+                    <small>Student</small>
+                    <div class="testimonial__body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa vero animi, assumenda facere, ad temporibus earum natus saepe, consequuntur fugit quae similique eius voluptatibus nobis reprehenderit aperiam voluptatem ab? Doloremque?</p>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="img/images/avatar3.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Diana Ayi</h5>
+                    <small>Student</small>
+                    <div class="testimonial__body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa vero animi, assumenda facere, ad temporibus earum natus saepe, consequuntur fugit quae similique eius voluptatibus nobis reprehenderit aperiam voluptatem ab? Doloremque?</p>
+                    </div>
+                </div>
+            </article>
+    
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="img/images/avatar4.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Diana Ayi</h5>
+                    <small>Student</small>
+                    <div class="testimonial__body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa vero animi, assumenda facere, ad temporibus earum natus saepe, consequuntur fugit quae similique eius voluptatibus nobis reprehenderit aperiam voluptatem ab? Doloremque?</p>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="img/images/avatar5.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Diana Ayi</h5>
+                    <small>Student</small>
+                    <div class="testimonial__body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa vero animi, assumenda facere, ad temporibus earum natus saepe, consequuntur fugit quae similique eius voluptatibus nobis reprehenderit aperiam voluptatem ab? Doloremque?</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div>
+            
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
     
     <section id="contact-details" class="section-p1" >
         <div class="details">
@@ -233,7 +317,7 @@
         <div id="form-details">
         <form  action="https://formspree.io/f/xrgvpevr" method="POST">
         <span>LEAVE  A MESSAGE</span>
-        <h2>We love to hear you</h2>
+        <h2>We Love To Hear You</h2>
         <input type="text" name="Name" placeholder="Your Name" required>
         <input type="email" name="Email" placeholder="Your Email" required>
         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
@@ -299,9 +383,39 @@
 
     </footer>
 
-    
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          cssMode: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          mousewheel: true,
+          keyboard: true,
+        });
+      </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+            600: {
+                slidesPerView: 2,
+            }
+        }
+      });
+    </script>
 </body>
 </html>
 

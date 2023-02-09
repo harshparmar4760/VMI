@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'spartan', sans-serif;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
 }
 
 h1{
@@ -533,6 +536,58 @@ footer a:hover{
 footer .copyright{
     width: 100%;
     text-align: center;
+}
+
+
+/* ---------------------------------testimonal---------------------------- */
+.testimonial{
+    /* padding: 0px 80px 10px 80px; */
+    text-align: center;
+}
+.testimonials__container{
+    overflow-x: hidden;
+    text-align: center;
+    padding: 0 80px 0 80px;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.testimonial{
+    padding-top: 2rem;
+}
+
+.avatar{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 1rem solid var(#041e42);
+}
+
+.testimonial__info{
+    text-align: center;
+}
+
+.testimonial__body{
+    background-color: #041e42;
+    padding: 2rem;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.testimonial__body::before{
+    content: "";
+    display: block;
+    /* background: linear-gradient(135deg, transparent, var(--color-primary), var(--color-primary), var(--color-primary)); */
+    /* background-color: linear-gradient(135deg, transparent,(#088178),(#088178),(#088178) ); */
+    background-color: #041e42;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 45.5%;
+    top: -1.5rem;
+    transform: rotate(45deg);
 }
 /* ----------------------------shop page--------------------------------------- */
 
