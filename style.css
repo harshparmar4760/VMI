@@ -255,7 +255,7 @@ body{
 
 #product1 .pro img{
     width: 100%;
-    /* height: 75%; */
+    height: 180px;
     border-radius: 20px;
 }
 
@@ -316,7 +316,7 @@ body{
 
 #banner h4{
     color: #fff;
-    font-size: 16px;
+    font-size: 70px;
 }
 
 #banner h2{
@@ -487,7 +487,7 @@ footer .col{
 }
 
 footer .logo{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 footer h4{
@@ -533,9 +533,11 @@ footer a:hover{
     color: #088178;
 }
 
-footer .copyright{
+footer .copyright {
     width: 100%;
     text-align: center;
+    border-top: 1px solid black;
+    padding-top: 15px;
 }
 
 
@@ -592,7 +594,7 @@ footer .copyright{
 /* ----------------------------shop page--------------------------------------- */
 
 #page-header{
-    background-image: url(img/banner/b1.jpg);
+    background-image: url(img/banner/black-.jpg!bwr800);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -626,6 +628,9 @@ footer .copyright{
     font-weight: 600;
 }
 
+#pagination  a:hover, #pagination a.active {
+    background-color: #606063;
+}
 /* -----------------single product------------------- */
 #prodetails{
     display: flex;
@@ -1093,6 +1098,7 @@ footer .copyright{
 
     #product1 .pro{
         margin: 15px;
+        width: 47%;
     }
 
     #banner{
@@ -1187,9 +1193,7 @@ footer .copyright{
         width: 100%;
     }
 
-    footer .copyright{
-        text-align: start;
-    }
+
 
 /* ------------single product--------------- */
 #prodetails{
@@ -1202,6 +1206,9 @@ footer .copyright{
 }
 #prodetails .single-pro-details{
     width: 100%;
+}
+#page-header{
+    height: 20vh;
 }
 
 /* ---------------blog page------------------- */
