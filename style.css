@@ -832,6 +832,10 @@ table {
 #about-head img{
     width: 50%;
     height: auto;
+    padding: 10px;
+    border-radius: 8px;
+    /* height: 350px; */
+    
 }
 
 #about-head div {
