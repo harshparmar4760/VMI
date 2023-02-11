@@ -309,14 +309,14 @@ body{
     text-align: center;
     background-image: url(img/banner/Green\ back\ 1.jpg);
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     background-position: center;
     background-size: cover;
 }
 
 #banner h4{
     color: #fff;
-    font-size: 70px;
+    font-size: 60px;
 }
 
 #banner h2{
@@ -437,7 +437,8 @@ body{
 
 #newsletter .form{
     display: flex;
-    width: 40%;
+    justify-content:space-evenly;
+    width: 30%;
 }
 
 #newsletter h4{
@@ -551,7 +552,7 @@ footer .copyright {
     text-align: center;
     padding: 0 80px 0 80px;
     position: relative;
-    margin-bottom: 5rem;
+    margin-bottom: 40px;
 }
 
 .testimonial{
@@ -660,14 +661,27 @@ footer .copyright {
 
 .small-img-col{
     padding: 2px;
-    flex-basis: wrap;
+    flex-basis: 24%;
     cursor: pointer;
+    width: 150px;
     /* display: block; */
+}
+
+#MainImg{
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.small-img{
+    border-radius: 4px;
+    height: 80px;
 }
 
 #prodetails .single-pro-details{
     width: 50%;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 #prodetails .single-pro-details a{
@@ -677,7 +691,7 @@ footer .copyright {
 
 
 #prodetails .single-pro-details h4{
-    padding: 35px 0 20px 0;
+    padding: 30px 0 15px 0;
 }
 
 #prodetails .single-pro-details h2 {
@@ -705,12 +719,37 @@ footer .copyright {
 #prodetails .single-pro-details button{
     background-color: #088178;   
     color: white;
+    padding-bottom: 10px;
 }
 
 #prodetails .single-pro-details span {
     line-height: 25px;
 }
+.more{
+    padding-bottom: 10px;
+}
 
+
+/* table */
+.table{
+    padding-top: 20px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 7px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
 /* -------------------------------blog page---------------------------------------- */
 #page-header.blog-header{
     background-image: url(img/banner/b19.jpg);
@@ -1153,7 +1192,7 @@ footer .copyright {
         font-size: 38px;
     }
     h2{
-        font-size: 32px;
+        font-size: 40px;
     }
 
     #hero{
@@ -1176,7 +1215,7 @@ footer .copyright {
     }
 
     #banner{
-        height: 40vh;
+        height: 50vh;
     }
 
     #sm-banner .banner-box{
@@ -1186,7 +1225,7 @@ footer .copyright {
         margin-top: 20px;
     }
 
-    #banner3{
+    #banner{
         padding: 0 20px;
     }
 
