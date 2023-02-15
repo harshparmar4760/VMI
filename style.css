@@ -1145,11 +1145,10 @@ table {
     #product1 .pro-container {
         justify-content: space-evenly;
     }
-
+/* 
     #product1 .pro{
-        margin: 15px;
         width: 47%;
-    }
+    } */
 
     #banner{
         height: 30vh;
@@ -1194,7 +1193,7 @@ table {
         font-size: 38px;
     }
     h2{
-        font-size: 40px;
+        font-size: 34px;
     }
 
     #hero{
@@ -1209,11 +1208,6 @@ table {
     #feature .fe-box{
         width: 155px;
         margin: 0 0 15px 0;
-    }
-
-    #product1 .pro{
-        width: 100%;
-        /* grid-template-columns: 1; */
     }
 
     #banner{
@@ -1243,7 +1237,17 @@ table {
         width: 100%;
     }
 
+/* ---------product page-------------- */
+#product1 .pro {
+    width: 46%;
+    min-width: 150px;
+    padding: 4px 3px;
+    margin: 0px;
+}
 
+#product1 .pro img {
+    height: 160px;
+}
 
 /* ------------single product--------------- */
 #prodetails{
@@ -1260,6 +1264,7 @@ table {
 #page-header{
     height: 20vh;
 }
+
 
 /* ---------------blog page------------------- */
 
