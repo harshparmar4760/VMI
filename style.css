@@ -592,8 +592,6 @@ footer .copyright {
 .testimonial__body::before{
     content: "";
     display: block;
-    /* background: linear-gradient(135deg, transparent, var(--color-primary), var(--color-primary), var(--color-primary)); */
-    /* background-color: linear-gradient(135deg, transparent,(#088178),(#088178),(#088178) ); */
     background-color: #041e42;
     width: 3rem;
     height: 3rem;
@@ -726,7 +724,7 @@ footer .copyright {
     line-height: 25px;
 }
 .more{
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 
