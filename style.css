@@ -1249,6 +1249,10 @@ table {
     height: 160px;
 }
 
+
+#MainImg{
+    height: 200px;
+}
 /* ------------single product--------------- */
 #prodetails{
     display: flex;
