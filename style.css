@@ -1195,7 +1195,17 @@ table {
     h2{
         font-size: 34px;
     }
+    h4{
+        font-size: 23px;
+        padding-bottom: 5px;
+    }
+    h3{
+        font-size: 17px;
+    }
 
+    p{
+        font-size: 12px;
+    }
     #hero{
         padding: 0 20px;
         background-position: 22%;
@@ -1237,21 +1247,29 @@ table {
         width: 100%;
     }
 
+    .testimonials__container {
+        padding: 0 40px 0 40px;
+    }
 /* ---------product page-------------- */
 #product1 .pro {
     width: 46%;
     min-width: 150px;
     padding: 4px 3px;
-    margin: 0px;
+    border-radius: 15px;
 }
 
 #product1 .pro img {
-    height: 160px;
+    height: 120px;
+    border-radius: 12px;
+
 }
 
 
 #MainImg{
     height: 200px;
+}
+.small-img {
+    height: 60px;
 }
 /* ------------single product--------------- */
 #prodetails{
@@ -1268,7 +1286,6 @@ table {
 #page-header{
     height: 20vh;
 }
-
 
 /* ---------------blog page------------------- */
 
