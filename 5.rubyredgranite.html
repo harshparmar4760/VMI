@@ -25,7 +25,7 @@
         <div>
             <ul id="navbar">
                 <li><a href="index.html">Home</a></li>
-                <li><a  class="active"href="product.html">Products</a></li>
+                <li><a href="product.html">Products</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="tel:9829093116"> Call Us</a></li>
@@ -39,45 +39,73 @@
       
     <section id="prodetails" class="section-p1">
       <div class="single-pro-image">
-        <img src="img/product marble/IMG-20220722-WA0020.jpg" width="100%" id="MainImg" alt=""/>
-
-       <div class="small-img-group">
+        <img src="img/product marble/5.rubyredgranite/ruby-red-granite.png" width="100%" id="MainImg" alt=""/>
+      <div class="small-img-group">
         <div class="small-img-col">
-          <img src="img/product marble/IMG-20220722-WA0020.jpg" width="100%" class="small-img" alt=""/>
+          <img src="img/product marble/5.rubyredgranite/ruby-red-granite.png" width="100%" class="small-img" alt=""/>
         </div>
         <div class="small-img-col">
-          <img src="img/product marble/IMG-20220722-WA0021.jpg" width="100%" class="small-img" alt=""/>
+          <img src="img/product marble/5.rubyredgranite/ruby-red-granite-slab1.png" width="100%" class="small-img" alt=""/>
         </div>
         <div class="small-img-col">
-          <img src="img/product marble/IMG-20220722-WA0023.jpg" width="100%" class="small-img" alt=""/>
+          <img src="img/product marble/5.rubyredgranite/ruby-red-granite-slab2.png" width="100%" class="small-img" alt=""/>
         </div>
         <div class="small-img-col">
-          <img src="img/product marble/IMG-20220722-WA0024.jpg" width="100%" class="small-img" alt=""/>
-        </div>
-        <div class="small-img-col">
-          <img src="img/product marble/IMG-20220722-WA0029.jpg" width="100%" class="small-img" alt=""/>
+          <img src="img/product marble/5.rubyredgranite/ruby-red-granite-slab3.png" width="100%" class="small-img" alt=""/>
         </div>
         </div>
     </div>
       </div>
 
       <div class="single-pro-details">
-        <h6><a href="index.html">Home</a> / Marble</h6>
-        <h4>Dark Green Marble</h4>
+        <h6><a href="index.html">Home</a> / Ruby Red Granite</h6>
+        <h4>Ruby Red Granite</h4>
         <h2>₹37-45/SQF</h2>
-        <a href="tel:7688916788"><button class="normal"> Call Us</button></a>
+        <a href="tel:9829093116"><button class="normal"> Call Us & Get Instant Quote</button></a>
 
-        <h4>Product Detail</h4>
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, consectetur perspiciatis! Autem aspernatur ullam commodi a explicabo nostrum vel eum ducimus voluptatum omnis temporibus aperiam, eos recusandae necessitatibus! Accusantium, doloribus.</span>
+        <!-- <h4>Details</h4> -->
+        <div class="table">
+        <table>
+          <tr>
+            <td>Marble Type</td>
+            <td>Indian Marble</td>
+          </tr>
+          <tr>
+            <td>Color</td>
+            <td>Red</td>
+          </tr>
+          <tr>
+            <td>Surface Finishing</td>
+            <td>Polished</td>
+          </tr>
+          <tr>
+            <td>Usage/Applications</td>
+            <td>Anywear indoor/outdoor</td>
+          </tr>
+          <tr>
+            <td>Country of Origin</td>
+            <td>Made in India</td>
+          </tr>
+        </table>
       </div>
-    </section>
+      </div>
+      </section>
+      <section class="section-p1">
+        <h4 class="more">Product Detail</h4>
+        <span>Ruby red Granite is one of the world-famous varieties of natural building stone. This Granite comes in a rich red color variety with black or grey speckles. This Red Granite is a medium grain, deep red color, dense with dark grains, intrusive igneous rock grainy, and phaneritic. Ruby red Granite name is the result of a rich deep red color. 
+          <br><br>
+          Great hardness, smooth finishing, resistance to scratch, heat resistance, strength, and durability makes it prominent worldwide. Ruby red Granite is suitable for interior and exterior use; moreover, it is freeze resistant and has a natural polish. 
+          <br><br>
+          Due to its exclusive texture and red shade, the granite got its name as Gem Red and Red Ruben granite. This granite is highly favored for exterior uses, such as granite floor tiling. The sun’s reflection on its surface vitalizes its beautiful color scheme, bringing vivid lights to any space. Strong but magnificent, this granite tile is best for designing kitchen countertops and avant-garde bathrooms.</span>
+          <br>
+      </section>
    
     <section id="product1" class="section-p1">
       <h2>Featured Products</h2>
       <p>Our Best Selling Products</p>
       <div class="pro-container">
           <div class="pro" onclick="window.location.href='sproduct.html'">
-              <img src="img/product marble/forest-green-marble-slabs-1636441157-6070301.jpeg" height="160px"  alt="">
+              <img src="img/product marble/darkgreenmarble/forest-green-marble-slabs-1636441157-6070301.jpeg" height="160px"  alt="">
               <div class="des">
                   <span>VMI</span>
                   <h4>Dark Green Marble</h4>
@@ -115,10 +143,12 @@
   <section id="newsletter" class="section-p1 section-m1">
     <div class="newstext">
         <h4>Get Latest Information</h4>
-        <p>Give Us a call and Know More About the  <span>Product and Price</span></p>
+        <p>Give Us a Call or Message to Learn More About the  <span>Product and Price and Get an Instant Quote.</span></p>
     </div>
     <div class="form">
         <a href="tel:7688916788"> <button class="normal">Call Us</button></a>
+    <a href="https://wa.me/+917688916788"> <button class="normal">Message Us</button></a>
+
     </div>
 </section>
 
@@ -164,9 +194,6 @@
       }
       smallimg[3].onclick = function(){
         MainImg.src = smallimg[3].src;
-      }
-      smallimg[4].onclick = function(){
-        MainImg.src = smallimg[4].src;
       }
     </script>
 
