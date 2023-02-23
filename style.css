@@ -819,7 +819,7 @@ table {
 
 /* ---------------------------about page----------------------------------------- */
 #page-header.about-header{
-    background-image: url(img/about/banner.png);
+    background-image: url(img/banner/about.png);
 }
 
 #about-head{
@@ -857,7 +857,13 @@ table {
 }
 
 /* ----------------------contact page------------------------------ */
+#page-header.about-header-about{
+    background-image: url(img/banner/contact.png);
+}
+
+
 #contact-details{
+
     display: flex;
     /* align-items: center; */
     justify-content: center;
@@ -894,11 +900,22 @@ table {
     padding-right: 22px;
 }
 
-#contact-details .details li p{
+#contact-details .details li p {
     margin: 0;
     font-size: 14px;
     color: black;
 }
+
+#contact-details .details li p a{
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
+
+#contact-details .details li p a:hover{
+    color: #088178;
+}
+
 
 .map{
     width: 100%;
