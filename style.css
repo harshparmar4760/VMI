@@ -316,12 +316,12 @@ body{
 
 #banner h4{
     color: #fff;
-    font-size: 60px;
+    font-size:50px;
 }
 
 #banner h2{
     color: #fff;
-    font-size: 30px;
+    font-size: 28px;
     padding: 10px 0;
 }
 
@@ -492,12 +492,12 @@ footer .logo{
 }
 
 footer h4{
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     font-size: 14px;
 }
 
 footer p{
-    margin: 0 0 8px 0;
+    margin: 0 0 12px 0;
     font-size: 13px;
     color: #222;
 
@@ -514,9 +514,25 @@ footer .follow{
 }
 
 footer .follow i{
-    color: #465b52;
-    padding-right: 4px;
+    color: #000;
+    /* padding-right: 4px; */
     cursor: pointer;
+    font-size: 16px;
+}
+
+.link {
+    text-decoration: none;
+    color: #b7b7b7;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #088178;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.4s;
 }
 
 
@@ -529,7 +545,9 @@ footer .install .row img{
     border-radius: 6px;
 }
 
-footer .follow i:hover,
+footer .follow i:hover{
+    color: white;
+}
 footer a:hover{
     color: #088178;
 }
@@ -1238,7 +1256,14 @@ table {
     }
 
     #banner{
-        height: 50vh;
+        height: 40vh;
+    }
+
+    #banner h4{
+        font-size: 40px;
+    } 
+    #banner h2{
+        font-size: 20px;
     }
 
     #sm-banner .banner-box{
