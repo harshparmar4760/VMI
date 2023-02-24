@@ -1451,6 +1451,10 @@ input[type=text], select, textarea {
     width: 100%;
     margin-bottom: 30px;
 }
+
+.wrapper {
+    width: 75%;
+}
 /* ---------------cart page----------------- */
 #cart-add{
     flex-direction: column;
