@@ -729,10 +729,10 @@ footer .copyright {
 }
 
 #prodetails .single-pro-details input{
-    width: 100px;
+    /* width: 100px; */
     height: 47px;
     padding-left: 10px;
-    font-size: 16px;
+    /* font-size: 16px; */
     margin-right: 10px;
 }
 
@@ -1002,6 +1002,53 @@ table {
     font-weight: 600;
     color: #000;
 }
+
+/* ---------pop up form----------- */
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(255, 255, 255, 0.8);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+.wrapper {
+	margin: 90px auto;
+	padding: 20px;
+	background: #e7e7e7;
+	border-radius: 5px;
+	width: 50%;
+	position: relative;
+	transition: all 3s ease-in-out;
+}
+.wrapper .close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	/* margin-top: 6px; */
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
 
 /* ---------------------------cart page------------------------ */
 #cart{
