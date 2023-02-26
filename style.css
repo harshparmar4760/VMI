@@ -59,6 +59,10 @@ button.normal{
     font-size: 16px;
 }
 
+button:hover{
+    background: transparent;
+}
+
 button.white{
     font-size: 13px;
     font-weight: 600;
@@ -257,6 +261,10 @@ body{
     width: 100%;
     height: 180px;
     border-radius: 20px;
+}
+
+#product1 .pro:hover {
+    transform: scale(1.1);
 }
 
 #product1 .pro .des{
@@ -473,6 +481,10 @@ body{
     white-space: nowrap;
 
 }
+#newsletter button:hover{
+    /* background: white; */
+    color: black;
+}
 
 footer{
     display: flex;
@@ -585,12 +597,12 @@ footer .copyright {
 
 
 .avatar{
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto 1rem;
-    border: 1rem solid var(#000000);
+    border: 2px solid black;
 }
 
 
@@ -983,6 +995,11 @@ table {
     background-color: #088178;
     color: white;
 }
+
+#form-details form button:hover{
+    /* background: black; */
+    color: black;
+}
 #form-details .people div{
     padding-bottom: 25px;
     display: flex;
@@ -1177,9 +1194,10 @@ input[type=text], select, textarea {
         position: fixed;
         top: 0;
         right: -150px;
-        /* height: 80vh; */
+        height: 100vh;
         width: 150px;
-        background-color: #e3e6f3;
+        background-color: #edede7;
+        border-radius: 5px;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
         padding: 80px 0 0 10px;
         transition: 0.3s;
