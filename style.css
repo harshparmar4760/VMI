@@ -725,6 +725,10 @@ footer .copyright {
     color: black;
 }
 
+#prodetails .single-pro-details a:hover{
+    color: #088178;
+}
+
 
 #prodetails .single-pro-details h4{
     padding: 30px 0 15px 0;
