@@ -803,6 +803,10 @@ table {
     background-image: url(img/banner/about.png);
 }
 
+#page-header.greenpage-image{
+    background-image: url(img/banner/green\ page.png);
+}
+
 #about-head{
     display: flex;
     align-items: center;
