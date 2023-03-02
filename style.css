@@ -445,7 +445,7 @@ body{
 
 #newsletter .form{
     display: flex;
-    justify-content:space-evenly;
+    /* justify-content:space-evenly; */
     width: 30%;
 }
 
@@ -479,11 +479,15 @@ body{
     background-color: #088178;
     color: #fff;
     white-space: nowrap;
-
 }
+
 #newsletter button:hover{
     /* background: white; */
     color: black;
+}
+
+#newsletter a{
+    padding-right: 10px;
 }
 
 footer{
@@ -1263,7 +1267,7 @@ input[type=text], select, textarea {
     } */
 
     #feature .fe-box{
-        width: 150px;
+        width: 140px;
         margin: 0 7px 15px 7px;
     }
 
