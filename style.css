@@ -10,6 +10,11 @@
     text-decoration: none;
 }
 
+section{
+    scroll-behavior: smooth;
+
+}
+
 h1{
     font-size: 50px;
     line-height: 64px;
@@ -251,10 +256,14 @@ body{
     margin: 15px 5px;
     transition: 0.2s ease;
     position: relative;
+    transition: all 0.5s ease;   
 }
 
+
 #product1 .pro:hover{
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.12);
+    transition: all 1s;
+
 }
 
 #product1 .pro img{
@@ -574,6 +583,19 @@ footer .copyright {
     border-top: 1px solid black;
     padding-top: 15px;
 }
+/* tranisitions------ */
+.reveal{
+    position: relative;
+    transform: translateY(120px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
 
 
 /* ---------------------------------testimonal---------------------------- */
