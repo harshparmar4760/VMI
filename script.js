@@ -14,6 +14,7 @@ if (close) {
     })
 }
 
+// transition js
 
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
@@ -33,23 +34,31 @@ function reveal() {
   
   window.addEventListener("scroll", reveal);
   
+// slider js
 
+  var swiper = new Swiper(".mySwiper", {
+    cssMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
+  });
 
-
-// transition for products
-
-// const observer = new IntersectionObserver((entries) => {
-//     entries.forEach((entry) => {
-//         console.log(entry)
-//         if (entry.isIntersecting){
-//             entry.target.classList.add('show');
-//         } else{
-//             entry.target.classList.remove('show');
-//         }
-//     })
-// })
-
-//     const hiddenElements = document.querySelectorAll('.hidden');    
-//     hiddenElements.forEach((el) => observer.observe(el));
-    
- 
+  var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+      600: {
+          slidesPerView: 2,
+      }
+  }
+});
