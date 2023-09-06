@@ -15,12 +15,12 @@ if (close) {
 }
 
 // Function to check if the form should be displayed
-// function shouldDisplayPopupForm() {
-//   const hasVisitedBefore = localStorage.getItem("hasVisitedBefore");
+function shouldDisplayPopupForm() {
+  const hasVisitedBefore = localStorage.getItem("hasVisitedBefore");
 
-//   // Display the form only if it hasn't been shown before
-//   return !hasVisitedBefore;
-// }
+// Display the form only if it hasn't been shown before
+  return !hasVisitedBefore;
+}
 
 // Function to display the pop-up after 5 minutes
 function displayPopupForm() {
@@ -34,14 +34,13 @@ function closePopupForm() {
   popupForm.style.display = "none";
 
   // Set a flag in local storage to indicate that the form has been shown
-  // localStorage.setItem("hasVisitedBefore", "true");
+  localStorage.setItem("hasVisitedBefore", "true");
 }
 
 // Set a timer to display the popup form after 5 seconds
-// if (shouldDisplayPopupForm()) {
-  // Set a timer to display the popup form after 5 seconds
+if (shouldDisplayPopupForm()) {
   setTimeout(displayPopupForm, 2000); // 5 seconds in milliseconds
-// }
+}
 
 // transition js
 
