@@ -245,6 +245,22 @@ body{
     flex-wrap: wrap;
 }
 
+.product-badge {
+    position: absolute;
+    transform: rotate(-45deg);
+    text-align: center;
+    left: -35px;
+    top: 25px;
+    width: 150px;
+    color: #fff;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 8px 0;
+    background: #57935f;
+    display: block;
+    box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.2), 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
 #product1 .pro{
     width: 23%;
     min-width: 250px;
@@ -252,6 +268,7 @@ body{
     border: 1px solid #cce7d0;
     border-radius: 25px;
     cursor: pointer;
+    overflow: hidden;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px 5px;
     transition: 0.2s ease;
@@ -1012,19 +1029,25 @@ table {
 	border-radius: 5px;
 	width: 50%;
 	position: relative;
-	transition: all 3s ease-in-out;
+	transition: all 2ms ease-in-out;
+}
+
+.wrapper h2{
+    font-size: 40px;
+    padding-bottom: 10px;
 }
 .wrapper .close {
 	position: absolute;
 	top: 20px;
+    cursor: pointer;
 	right: 30px;
 	transition: all 200ms;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
 	color: #333;
 }
-input[type=text], select, textarea {
+input[type=text],[type=number],[type=email], select, textarea {
 	width: 100%;
 	padding: 12px;
 	border: 1px solid #ccc;
@@ -1033,6 +1056,17 @@ input[type=text], select, textarea {
 	/* margin-top: 6px; */
 	margin-bottom: 16px;
 	resize: vertical;
+}
+.popup {
+	position: fixed;
+    display: none;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(255, 255, 255, 0.8);
+	transition: opacity 500ms;
+    z-index: 1000;
 }
 
 
@@ -1347,9 +1381,18 @@ input[type=text], select, textarea {
 }
 
 #product1 .pro img {
-    height: 120px;
+    height: 110px;
     border-radius: 15px;
 
+}
+
+.product-badge{
+    left: -49px;
+    top: 15px;
+    width: 150px;
+    line-height: 8px;
+    font-size: 9px;
+    padding: 7px 0;
 }
 
 
@@ -1440,7 +1483,11 @@ input[type=text], select, textarea {
 }
 
 .wrapper {
-    width: 75%;
+    width: 80%;
+}
+
+.wrapper h2{
+    font-size: 25px;
 }
 /* ---------------cart page----------------- */
 #cart-add{
